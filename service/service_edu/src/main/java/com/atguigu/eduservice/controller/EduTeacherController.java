@@ -111,6 +111,7 @@ public class EduTeacherController {
         List<EduTeacher> records = pageTeacher.getRecords();//数据list集合
         System.out.println("git1");
         System.out.println("git3");
+        System.out.println("git4");
         return R.ok().data("total", total).data("rows", records);
     }
 }
