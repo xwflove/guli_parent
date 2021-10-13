@@ -109,7 +109,7 @@ public class EduTeacherController {
         teacherService.page(pageTeacher, wrapper);
         long total = pageTeacher.getTotal();//总记录数
         List<EduTeacher> records = pageTeacher.getRecords();//数据list集合
-
+        System.out.println("git1");
         return R.ok().data("total", total).data("rows", records);
     }
 }
